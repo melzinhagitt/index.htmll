@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap"
+        rel="stylesheet">
+    <title>A Aventura dos Duendes na Floresta</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="https://th.bing.com/th/id/OIP.R1603q9LnJ-3b9KOPrJb4gHaHa?rs=1&pid=ImgDetMain" alt="">
+            <p>Você é um duende travesso em uma missão para encontrar os Tesouros Esquecidos da Floresta Encantada. Para
+                ter sucesso, você deve reunir os quatro artefatos mágicos, cada um escondido em um local inusitado e
+                protegido por criaturas brincalhonas. Sua esperteza, senso de humor e habilidades de travessura serão
+                postas à prova em cada etapa da jornada. Você começa sua aventura no alegre vilarejo de Risadópolis. Um
+                gnomo contador de piadas lhe entrega um mapa antigo que marca a localização dos artefatos. O primeiro
+                local é a Gruta do Gargalhante, uma caverna onde as paredes riem de tudo. Você tem duas opções:</p>
+            <button class="btn-proximo" data-proximo="1">Entrar na gruta durante o dia: Enfrentar menos criaturas
+                brincalhonas, mas com o risco de ser visto.</button>
+            <button class="btn-proximo" data-proximo="2">Entrar na gruta à noite: Ser mais furtivo, mas com mais
+                travessuras pelo caminho.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Após entrar na gruta, você é cercado por piadas sem graça. Para escapar, você deve escolher entre:</p>
+            <button class="btn-proximo" data-proximo="3">Usar suas habilidades de comédia: Contar uma piada ainda mais sem graça.</button>
+            <button class="btn-proximo" data-proximo="4">Rir histericamente: Fazer as piadas sem graça pensarem que são engraçadas.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você encontra uma caverna secreta dentro da gruta. Dentro da caverna, há um quebra-cabeça engraçado que
+                você precisa resolver para obter o primeiro artefato:</p>
+            <button class="btn-proximo" data-proximo="5">Resolver o quebra-cabeça: Usar sua esperteza para superar o
+                desafio.</button>
+            <button class="btn-proximo" data-proximo="6">Procurar outra entrada: Tentar encontrar uma maneira
+                alternativa de entrar.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você obteve o primeiro artefato! Parabéns, continue para mais risadas.</p>
+            <button class="btn-proximo" data-proximo="7">Continuar</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você riu tanto que se esqueceu de respirar. Fim da jornada. </p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Com o primeiro artefato em mãos, você segue para a Colina das Travessuras. No caminho, encontra um grupo
+                de elfos travessos que precisam de ajuda:</p>
+            <button class="btn-proximo" data-proximo="7">Ajudar os elfos: Ganhar a gratidão deles e possíveis aliados
+                para mais travessuras.</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Ao subir a colina, você é surpreendido por um deslizamento de banana. </p>
+            <button class="btn-proximo" data-proximo="8">Continuar subindo: Tentar evitar as cascas de banana e seguir
+                adiante.</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>No topo da colina, você encontra um baú de tesouro bobo. Dentro, há um artefato protegido por um troll
+                brincalhão. Para obter o segundo artefato:</p>
+            <button class="btn-proximo" data-proximo="9">Enfrentar o troll com uma batalha de piadas: Usar suas piadas mais
+                engraçadas para derrotá-lo.</button>
+            <button class="btn-proximo" data-proximo="10">Negociar com o troll: Tentar persuadi-lo a entregar o artefato
+                em troca de uma piada muito boa.</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Com dois artefatos em mãos, você segue para o Pântano da Bobagem. No meio do pântano, você encontra um
+                buraco onde há um grupo de sapos falantes que pode oferecer ajuda.</p>
+            <button class="btn-proximo" data-proximo="7">Pedir ajuda aos sapos falantes: Ganhar recursos e informações
+                valiosas.</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>No centro do pântano, você encontra uma árvore antiga que conta piadas. Para obter o terceiro artefato,
+                você precisa resolver um enigma engraçado:</p>
+            <button class="btn-proximo" data-proximo="11">Procurar outra árvore que não conta piadas: Tentar encontrar
+                um caminho alternativo.</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Dentro da árvore, você se depara com armadilhas de pegadinhas. Para obter o terceiro artefato, você
+                precisa navegar por um labirinto cheio de truques.</p>
+            <button class="btn-proximo" data-proximo="12">Ser ágil e cuidadoso para passar pelas pegadinhas.</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Deixando o pântano, você segue para a Floresta Mágica. Na floresta, você encontra um gnomo que oferece
+                um chapéu mágico em troca de uma pegadinha. Com três artefatos reunidos, você segue para o Palácio da
+                Diversão, onde o vilão final está esperando. Você enfrenta seu maior inimigo em uma batalha épica de
+                risadas, canalizando o poder dos artefatos para derrotá-lo. Com o vilão derrotado, você restaura a paz
+                no Reino da Diversão. Os habitantes do reino celebram sua bravura e você é coroado como o rei do humor.
+                A missão é cumprida, mas novas travessuras sempre esperam por você no horizonte. </p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho à esquerda, você finalmente encontra a casa do gnomo brincalhão e as
+                inscrições que levam ao lugar escondido dos artefatos.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o lugar escondido</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
